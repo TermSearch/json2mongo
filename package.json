@@ -1,5 +1,5 @@
 {
-  "name": "json2mongo",
+  "name": "json2mongodb",
   "version": "0.1.0",
   "description": "Imports JSON from stdin and saves it to a MongoDB db/collection.",
   "main": "json2mongo.js",
@@ -10,7 +10,7 @@
   "author": "Koen van Gilst <koen.vangilst@gmail.com> (http://koenvangilst.nl)",
   "license": "MIT",
   "bin": {
-    "json2mongo": "./json2mongo.js"
+    "json2mongodb": "./json2mongo.js"
   },
   "dependencies": {
     "JSONStream": "^1.1.1",
