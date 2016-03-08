@@ -15,7 +15,7 @@
   "dependencies": {
     "JSONStream": "^1.1.1",
     "commander": "^2.9.0",
-    "save-to-mongo": "0.0.2"
+    "save-to-mongo": "https://github.com/vnglst/save-to-mongo/tarball/master"
   },
   "devDependencies": {},
   "repository": {
