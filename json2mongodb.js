@@ -23,7 +23,7 @@ program
 	.on('--help', function () {
 		console.log('  Examples:');
 		console.log('');
-		console.log('    $ cat input.json | json2mongo -d test -c testCollection -m unordered');
+		console.log('    $ cat input.json | json2mongodb -d test -c testCollection -m unordered');
 		console.log('');
 	})
 	.parse(process.argv);
