@@ -1,6 +1,11 @@
 #!/usr/bin/env node --harmony
 'use strict'
 
+//
+// TODO:
+// - Fix js-bson warning in save-to-mongo (upgrade npm modules, create PR?)
+//
+
 const SaveToMongo = require('save-to-mongo');
 const JSONStream = require('JSONStream');
 const program = require('commander');
@@ -42,7 +47,7 @@ const saveToMongo = SaveToMongo({
 // Glueing streams together
 //
 
-process.stdin.
+process.stdin
 	.pipe(JSONStream.parse('*'))
   .pipe(saveToMongo)
   .on('execute-error', function(err) {

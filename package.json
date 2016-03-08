@@ -13,7 +13,17 @@
     "json2mongo": "./json2mongo.js"
   },
   "dependencies": {
+    "JSONStream": "^1.1.1",
     "commander": "^2.9.0",
-    "through2": "^2.0.1"
-  }
+    "save-to-mongo": "0.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnglst/json2mongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vnglst/json2mongo/issues"
+  },
+  "homepage": "https://github.com/vnglst/json2mongo#readme"
 }
