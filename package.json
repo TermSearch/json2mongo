@@ -1,0 +1,19 @@
+{
+  "name": "json2mongo",
+  "version": "0.1.0",
+  "description": "Imports JSON from stdin and saves it to a MongoDB db/collection.",
+  "main": "json2mongo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Koen van Gilst <koen.vangilst@gmail.com> (http://koenvangilst.nl)",
+  "license": "MIT",
+  "bin": {
+    "json2mongo": "./json2mongo.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "through2": "^2.0.1"
+  }
+}
