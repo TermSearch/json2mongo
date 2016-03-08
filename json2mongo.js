@@ -4,7 +4,7 @@
 //
 // TODO:
 // - Fix js-bson warning in save-to-mongo (upgrade npm modules, create PR?)
-//
+// -
 
 const SaveToMongo = require('save-to-mongo');
 const JSONStream = require('JSONStream');
@@ -28,7 +28,7 @@ program
 	})
 	.parse(process.argv);
 
-const db = program.db || 'test';
+const db = program.database || 'test';
 const collection = program.collection || 'testCollection';
 const mode = program.mode || 'unordered';
 //
